@@ -5,7 +5,7 @@ mixin FooterList(...items)
         =item
 
 mixin Footer
-  section.py-0
+  section.py-0#contact
     +Background({ image: `${CWD}assets/img/illustrations/footer-bg.png`, attrs: { style: { 'background-position': 'center', 'background-size': 'cover'} }, className: '' })
     .container
       .row.flex-center.py-8.m-5
@@ -44,13 +44,13 @@ mixin Footer
               button.btn.btn-light(type='button') Sign In
       hr.text-300  
       .row.justify-content-center
-        .col-6   
+        .col-12.col-sm-8.col-md-6.text-center.text-md-start 
           a(href='#')
             img.d-inline-block.align-top.img-fluid(src='assets/img/gallery/logo-icon.png' alt='' width='40')
             span.text-theme.font-monospace.fs-3.ps-2 Zou
       
-        .col-6  
-           p.mb-0.fs--1.text-dark.my-2.text-center &copy; This template is made with&nbsp;
+        .col-12.col-sm-8.col-md-6
+           p.fs--1.text-dark.my-2.text-center.text-md-end &copy; This template is made with&nbsp;
             svg.bi.bi-suit-heart-fill(xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#1F3A63' viewBox='0 0 16 16')
               path(d='M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z')
 

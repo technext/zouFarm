@@ -10,7 +10,7 @@ mixin Items(config)
         p.mb-0.px-3.px-md-2.px-xxl-3=config.text    
     
 mixin Testimonials
-  section.py-9
+  section.py-9#team
     .container-lg
       .row.flex-center
         .col-12.col-lg-10.col-xl-12
@@ -24,7 +24,7 @@ mixin Testimonials
           #carouselExampleDark.carousel.slide(data-bs-ride='carousel').pt-3
             .carousel-inner
               .carousel-item.active(data-bs-interval='10000')
-                .row.h-100.mx-3.m-sm-7.mx-md-4.my-md-7.m-lg-7.mt-7 
+                .row.h-100.mx-3.m-sm-8.mx-md-4.my-md-7.m-lg-7.mt-7 
                   +Items({image: 'user-1.png', name:'Fernando Soler', designation:'Telecommunication Engineer', text:'"Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae',
                   })
                   +Items({image: 'user-2.png', name:'Ilone Pickford', designation:'Head of Agrogofund ', text:'"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium ',
