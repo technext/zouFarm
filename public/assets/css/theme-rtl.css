@@ -18187,7 +18187,7 @@ label {
   transform: translateY(-0.125rem) translateZ(0);
   -webkit-box-shadow: -0.5rem 0.5rem 1.5rem rgba(22, 28, 45, 0.1) !important;
   box-shadow: -0.5rem 0.5rem 1.5rem rgba(22, 28, 45, 0.1) !important;
-  background-color: #0BAC56;
+  background-color: #D9EEDA;
 }
 
 .theme-tab .nav-link {
@@ -18289,6 +18289,22 @@ label {
   right: 0;
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
+}
+
+.cta {
+  margin-bottom: -4rem;
+}
+
+@media (min-width: 768px) {
+  .cta {
+    margin-bottom: -5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .cta {
+    margin-bottom: -10rem;
+  }
 }
 
 /*-----------------------------------------------

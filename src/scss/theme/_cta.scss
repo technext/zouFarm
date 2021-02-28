@@ -1,0 +1,14 @@
+
+.cta{
+  margin-bottom:-4rem;
+}
+@include media-breakpoint-up(md) {
+  .cta{
+    margin-bottom:-5rem;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .cta{
+    margin-bottom:-10rem;
+  }
+}

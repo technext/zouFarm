@@ -30,22 +30,7 @@
       }
       color: $success;
     }
-    // &.done {
-    //   .nav-item-circle {
-    //     background-color: $info !important;
-    //     color: #fff;
-    //     border-color: $success;
-    //     .check-icon {
-    //       display: inline-block;
-    //     }
-    //   }
-    //   color: $success;
-    //   .nav-item-circle-parent {
-    //     &:before {
-    //       background-color: $info;
-    //     }
-    //   }
-    // }
+  
     .nav-item-circle {
       .check-icon {
         display: none;
@@ -65,22 +50,7 @@
       }
     }
   }
-  // .nav-item:not(:first-child) {
-  //   .active {
-  //     .nav-item-circle-parent {
-  //       &:after {
-  //         content: "";
-  //         width: 50%;
-  //         position: absolute;
-  //         left: -1px;
-  //         top: 50%;
-  //         transform: translateY(-50%);
-  //         height: 2px;
-  //         background-color: $white;
-  //       }
-  //     }
-  //   }
-  // }
+
   .nav-item-circle-parent {
     position: relative;
     padding: 0 map-get($spacers, 3);
@@ -117,19 +87,4 @@
     }
   }
 
-  // .pager {
-  //   display: flex;
-  //   justify-content: space-between;
-  // }
-  // .wizard-lottie-wrapper {
-  //   height: 1px;
-  //   position: relative;
-  //   padding-bottom: 11.875rem;
-  //   overflow: hidden;
-  //   .wizard-lottie {
-  //     width: 21.25rem;
-  //     height:auto;
-  //     transform: translateY(-73%);
-  //   }
-  // }
 }
