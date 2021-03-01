@@ -18315,18 +18315,12 @@ label {
 }
 
 .cta {
-  margin-bottom: -4rem;
+  margin-bottom: -21rem;
 }
 
 @media (min-width: 768px) {
   .cta {
-    margin-bottom: -5rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .cta {
-    margin-bottom: -10rem;
+    margin-bottom: -20rem;
   }
 }
 
