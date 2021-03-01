@@ -23,10 +23,10 @@ append variables
 
 mixin InvestCard(config) 
   .col-md-6.mb-5
-    .card.text-white.card-theme
+    .card.text-white
       img.card-img(src=`${CWD}assets/img/gallery/${config.image}` alt='...')
       .card-img-overlay.d-flex.flex-column.justify-content-center.px-5.px-md-3.px-lg-5(class=`${config.bg}`)
-        h6.card-title.text-success.fs--1.pt-2=config.title
+        h6.text-success.pt-2=config.title
         hr.text-white(style='height:0.12rem;width:2.813rem')
         .pt-lg-3
           h6.fw-bold.text-white.fs-1.fs-md-2.fs-lg-3.w-xxl-50=config.subTitle
@@ -34,7 +34,7 @@ mixin InvestCard(config)
           button.btn.btn-lg.btn-light.text-success(type='button')=config.btnText
         
 mixin Invest
-  +Section.py-5#blog
+  +Section.py-5#invest
     .row.justify-content-center
       .col-xl-9.mb-3
         .row
